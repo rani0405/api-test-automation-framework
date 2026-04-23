@@ -22,8 +22,7 @@ This project is an automated API testing framework built using Python and Pytest
 ## How to Run
 
 ```bash
-pip install -r requirements.txt
-pytest -n auto
+ py -m pytest
 ```
 
 ## Reporting
