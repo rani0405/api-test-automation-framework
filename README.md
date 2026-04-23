@@ -48,4 +48,9 @@ allure serve allure-results
 * Added schema validation for strong assertions
 
 ## Author
+<<<<<<< HEAD
 Rani Suresh Nikhade
+=======
+
+Rani Suresh Nikhade
+>>>>>>> 21eaa76de2a6b951ca04c1b0e73c5bb10d4318ae
