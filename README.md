@@ -14,10 +14,14 @@ This project is an automated API testing framework built using Python and Pytest
 
 ## Project Structure
 
-* tests → test cases
-* utils → reusable code
-* data → test data
-* schemas → schema validation
+api-test-framework/ 
+│── tests/ 
+│── utils/ 
+│── data/ 
+│── conftest.py 
+│── pytest.ini 
+│── requirements.txt 
+│── README.md
 
 ## How to Run
 
@@ -48,9 +52,5 @@ allure serve allure-results
 * Added schema validation for strong assertions
 
 ## Author
-<<<<<<< HEAD
 Rani Suresh Nikhade
-=======
 
-Rani Suresh Nikhade
->>>>>>> 21eaa76de2a6b951ca04c1b0e73c5bb10d4318ae
