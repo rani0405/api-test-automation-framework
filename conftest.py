@@ -10,3 +10,11 @@ def valid_transaction():
 @pytest.fixture
 def invalid_transaction():
     return data["invalid_transaction"]
+
+@pytest.fixture
+def missing_field_transaction():
+    return data["missing_field_transaction"]
+
+@pytest.fixture
+def large_transaction():
+    return data["large_transaction"]

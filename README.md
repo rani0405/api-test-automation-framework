@@ -22,14 +22,13 @@ This project is an automated API testing framework built using Python and Pytest
 ## How to Run
 
 ```bash
-pip install -r requirements.txt
-pytest -n auto
+ py -m pytest
 ```
 
 ## Reporting
 
 ```bash
-pytest --alluredir=allure-results
+py -m pytest --alluredir=allure-results
 allure serve allure-results
 ```
 
@@ -47,3 +46,6 @@ allure serve allure-results
 * Used fixtures for test data
 * Externalized test data for scalability
 * Added schema validation for strong assertions
+
+## Author
+Rani Suresh Nikhade

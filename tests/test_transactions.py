@@ -16,6 +16,22 @@ def test_get_posts(user_id):
     response = APIClient.get("/posts", {"userId": user_id})
     assert response.status_code == 200
 
+def test_valid_transaction(valid_transaction):
+    response = APIClient.post("/posts", valid_transaction)
+
+    assert response.status_code == 201
+
+def test_invalid_transaction(invalid_transaction):
+    response = APIClient.post("/posts", invalid_transaction)
+
+    assert response.status_code == 201
+
+
+# Missing field
+def test_missing_field(missing_field_transaction):
+    response = APIClient.post("/posts", missing_field_transaction)
+
+    assert response.status_code == 201
 
 # Unauthorized test
 def test_unauthorized_access():

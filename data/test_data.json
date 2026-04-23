@@ -2,11 +2,26 @@
   "valid_transaction": {
     "userId": 1,
     "title": "Test Title",
-    "body": "Test Body"
+    "body": "Test Body",
+     "amount": 100,
+    "type": "credit"
   },
   "invalid_transaction": {
     "userId": "abc",
     "title": "",
-    "body": 123
+    "body": 123,
+     "amount": -100,
+    "type": "credit"
+  },
+  "missing_field_transaction": {
+    "amount": 100
+  },
+  "large_transaction": {
+    "user_id": 1,
+    "amount": 999999999999,
+    "type": "credit"
+  },
+  "invalid_user_query": {
+    "user_id": "xyz"
   }
 }
