@@ -46,3 +46,7 @@ allure serve allure-results
 * Used fixtures for test data
 * Externalized test data for scalability
 * Added schema validation for strong assertions
+
+## Author
+
+Rani Suresh Nikhade
