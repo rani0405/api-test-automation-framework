@@ -1,0 +1,12 @@
+{
+  "valid_transaction": {
+    "userId": 1,
+    "title": "Test Title",
+    "body": "Test Body"
+  },
+  "invalid_transaction": {
+    "userId": "abc",
+    "title": "",
+    "body": 123
+  }
+}
