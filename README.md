@@ -28,7 +28,7 @@ This project is an automated API testing framework built using Python and Pytest
 ## Reporting
 
 ```bash
-pytest --alluredir=allure-results
+py -m pytest --alluredir=allure-results
 allure serve allure-results
 ```
 
